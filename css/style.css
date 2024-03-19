@@ -13,14 +13,12 @@
 body {
   font-family: Rubik, sans-serif;
   background: #ffe4ef;
-
   width: 100%;
-
   height: 100vh;
-
   -webkit-tap-highlight-color: transparent;
-
   transition: 0.4s ease-in-out;
+  background-image: url('/jpg/gif\ background.gif'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+
 }
 
 button {
@@ -62,58 +60,57 @@ button {
 }
 
 #yes {
-  background-color: #94418c;
+  background-color: #0e750a;
 
   color: white;
 }
 
 #no {
-  background-color: #4b1639;
+  background-color: #c01010;
 
   color: white;
 }
 
 #yay {
   display: none;
-
-  /* مخفي عند البداية */
-
-  position: absolute;
-
+  position:absolute;
+  float: right;
   margin-top: -100px;
 
-  font-weight: 900;
+  font-weight: 1000;
 
-  font-size: 20px;
+  font-size: 100px;
 }
 
 #yay1 {
   display: none;
-
   width: 160px;
-
+  float: left;
   position: absolute;
-
   margin-top: -250px;
 }
 
 #can1 {
-  width: 100px;
-
-  position: absolute;
-
+  width: 70px;;
+  float: left;
+  /* position:absolute; */
   margin-top: -250px;
-
-  display: block;
+  display: inline-block;
+  vertical-align: top;
 }
 
+#can2{
+  width: 100px;
+  float: left;
+  /* position:absolute; */
+  margin-top: -250px;
+  display: inline-block;
+  vertical-align: top;
+}
 #can {
-  position: absolute;
-
+  position:absolute;
   margin-top: -100px;
-
   font-weight: 600;
-
   display: block;
 }
 
