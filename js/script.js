@@ -25,3 +25,7 @@ yesBtn.addEventListener("click", () => {
 
   can1.style.display = "none";
 });
+document.getElementById('playSound').addEventListener('click', function() {
+  var sound = document.getElementById('soundEffect');
+  sound.play();
+});
