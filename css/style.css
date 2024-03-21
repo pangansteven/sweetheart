@@ -17,7 +17,7 @@ body {
   height: 100vh;
   -webkit-tap-highlight-color: transparent;
   transition: 0.4s ease-in-out;
-  background-image: url('/jpg/gif\ background.gif'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-image: url('/jpg/gif\ background.gif');
 
 }
 
