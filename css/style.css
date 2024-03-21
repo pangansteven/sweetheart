@@ -11,12 +11,7 @@
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  -webkit-tap-highlight-color: transparent;
-  transition: 0.4s ease-in-out;
-  background-image: url('/jpg/aesthetic.jpg');
-
+  background-image: url('/jpg/gif\ background.gif')
 }
 
 button {
